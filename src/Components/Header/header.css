@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 52rem;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -81,7 +81,11 @@ header {
         height: 100vh;
     }
 
-    .header_socials, .scroll_down {
+    .header_socials {
+        
+    }
+
+     .scroll_down {
         display: none;
     }
 }
