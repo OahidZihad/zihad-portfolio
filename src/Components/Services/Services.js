@@ -11,28 +11,28 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="service_head">
-            <h3>UI/UX Design</h3>
+            <h3>Graphics Design</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Add realistic effects.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Product photo retouching.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Adjust contrast or light of images.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Minimalist beautiful logo design.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Vectorization of images and logos.</p>
             </li>
           </ul>
         </article>
@@ -44,27 +44,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Fully Functional Website.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Responsive Design</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Fresh and eyecatchy frontend.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>NoSQL Database managed by MongoDB.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Clean and reusable source code.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Design customization based on the API.</p>
             </li>
           </ul>
         </article>
@@ -76,23 +76,23 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Content writing.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Create project report.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Keyword research for any niche.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Caption for each post in social media.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon"></BiCheck>
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Good quality report based on products.</p>
             </li>
           </ul>
         </article>

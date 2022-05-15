@@ -18,10 +18,16 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    background: rgb(8, 129, 185);
+    background-image: url(../../assets/bg-texture.png);
+    background-size: 1px;
+    aspect-ratio: 1/1;
+    width: 100%;
 }
 
 .about_me-image:hover {
     transform: rotate(0);
+    background-size: 5px;
 }
 
 .about_cards {
