@@ -42,7 +42,7 @@ const Portfolio = () => {
               Github
             </a> */}
             <a
-              href="https://online-doctor-bf05f.web.app/"
+              href="https://e-doctor.io"
               className="btn btn-primary"
               target="_blank"
             >
