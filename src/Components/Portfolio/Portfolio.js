@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio_container">
         <article className="portfolio_item">
@@ -92,28 +92,6 @@ const Portfolio = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Doctor's Appointment</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com/OahidZihad/doctors-chember"
-              target="_blank"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://doctors-chember-9e502.web.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
             <img src={IMG6} alt="" />
           </div>
           <h3>Hotel Booking Auth</h3>
@@ -127,6 +105,28 @@ const Portfolio = () => {
             </a>
             <a
               href="https://burj-al-arab-motel.web.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Doctor's Appointment</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/OahidZihad/doctors-chember"
+              target="_blank"
+              className="btn"
+            >
+              Github
+            </a>
+            <a
+              href="https://doctors-chember-9e502.web.app/"
               className="btn btn-primary"
               target="_blank"
             >

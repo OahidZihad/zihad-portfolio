@@ -1,0 +1,61 @@
+.education_container {
+  display: grid;
+  grid-template-areas: "a . b" ". c .";
+  grid-auto-flow: dense;
+  gap: 2rem;
+  text-align: center;
+}
+
+.education_container h2 {
+  color: var(--color-primary);
+}
+
+.edu_1 {
+  grid-area: a;
+}
+
+.edu_1:hover .edu_details-icon {
+  transform: rotate(0);
+  transition: var(--transition);
+}
+
+.edu_2 {
+  grid-area: b;
+}
+
+.edu_2:hover .edu_details-icon {
+  transform: rotate(0);
+  transition: var(--transition);
+}
+
+.edu_3 {
+  grid-area: c;
+}
+
+.edu_3:hover .edu_details-icon {
+  transform: rotate(0);
+  transition: var(--transition);
+}
+
+.edu_details-icon {
+  color: var(--color-primary);
+  font-size: 5rem;
+  transform: rotate(-20deg);
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========= */
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========= */
+@media screen and (max-width: 1024px) {
+  .education_container {
+    grid-template-areas: "a" "b" "c";
+    gap: 3rem;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========= */
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========= */
+@media screen and (max-width: 600px) {
+  .education_container {
+    gap: 3rem;
+  }
+}
