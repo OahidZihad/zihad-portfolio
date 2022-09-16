@@ -9,7 +9,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-light);
+    border: 0.2rem solid var(--color-light);
 }
 
 .client_name{

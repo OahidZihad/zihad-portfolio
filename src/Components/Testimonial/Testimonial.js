@@ -2,7 +2,7 @@ import React from "react";
 import "./testimonial.css";
 import AVTR1 from "../../assets/avatar11.jpg";
 import AVTR2 from "../../assets/avatar22.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
+import Barun from "../../assets/Barun.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
 
 import { Pagination } from "swiper";
@@ -48,6 +48,18 @@ const Testimonial = () => {
             As I remember, Zihad was a very productive person and is a
             multi-skilled person with vast knowledge. Zihad is careful,
             proactive, self motivated and intelligent team player.
+          </small>
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
+          <div className="client_avatar">
+            <img src={Barun} alt="" />
+          </div>
+          <h5 className="client_name">Barun Bhattacharjee</h5>
+          <small className="client_review">
+            Zihad is a proactive learner who works dedicatedly and quickly
+            finishes his work within the deadline. I got a very good experience
+            working with him. His efforts for his team are truly commendable. I
+            strongly recommend him.
           </small>
         </SwiperSlide>
         {/* <SwiperSlide className="testimonial">
