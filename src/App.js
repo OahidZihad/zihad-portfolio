@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Research from "./Components/Research/Research";
 import Services from "./Components/Services/Services";
 import Testimonial from "./Components/Testimonial/Testimonial";
 
@@ -19,6 +20,7 @@ function App() {
       <Education></Education>
       <Experience></Experience>
       <Services></Services>
+      <Research></Research>
       <Portfolio></Portfolio>
       <Testimonial></Testimonial>
       <Contact></Contact>

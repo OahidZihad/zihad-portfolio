@@ -20,13 +20,11 @@ const Portfolio = () => {
           </div>
           <h3>Care-Box Ltd. (Production Level E-commerce)</h3>
           <div className="portfolio_item-cta">
-            {/* <a href="https://github.com" target="_blank" className="btn">
-              Github
-            </a> */}
             <a
               href="https://care-box.com"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -36,15 +34,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Live Doctor Services with Video Call (Ongoing)</h3>
+          <h3>Day to Communications | Marketing SaaS Tool</h3>
           <div className="portfolio_item-cta">
-            {/* <a href="https://github.com" target="_blank" className="btn">
-              Github
-            </a> */}
             <a
-              href="https://e-doctor.io"
+              href="https://day2communications.com/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -54,15 +50,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Online Pathology Service (Ongoing)</h3>
+          <h3>Yoom Zoom</h3>
           <div className="portfolio_item-cta">
-            {/* <a href="https://github.com" target="_blank" className="btn">
-              Github
-            </a> */}
             <a
-              href="https://carebox-pathology.web.app/"
+              href="https://yoom-zoom.vercel.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -72,19 +66,21 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>Restaurant Web</h3>
+          <h3>Modern Fitness Exercises Application</h3>
           <div className="portfolio_item-cta">
-            <a
+            {/* <a
               href="https://github.com/OahidZihad/restaurant-boots"
               target="_blank"
               className="btn"
+              rel="noreferrer"
             >
               Github
-            </a>
+            </a> */}
             <a
-              href="https://boots-foodies.netlify.app/"
+              href="https://selfgym.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -94,19 +90,21 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Hotel Booking Auth</h3>
+          <h3>Restaurant Landing Page</h3>
           <div className="portfolio_item-cta">
-            <a
+            {/* <a
               href="https://github.com/OahidZihad/burj-al-arab-motel"
               target="_blank"
               className="btn"
+              rel="noreferrer"
             >
               Github
-            </a>
+            </a> */}
             <a
-              href="https://burj-al-arab-motel.web.app/"
+              href="https://boots-foodies.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -118,17 +116,19 @@ const Portfolio = () => {
           </div>
           <h3>Doctor's Appointment</h3>
           <div className="portfolio_item-cta">
-            <a
+            {/* <a
               href="https://github.com/OahidZihad/doctors-chember"
               target="_blank"
               className="btn"
+              rel="noreferrer"
             >
               Github
-            </a>
+            </a> */}
             <a
-              href="https://doctors-chember-9e502.web.app/"
+              href="https://goodsmiledental.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>

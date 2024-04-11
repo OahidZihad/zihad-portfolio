@@ -1,0 +1,32 @@
+.research_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.research_items {
+  width: 90%;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--color-primary-variant);
+  transition: var(--transition);
+}
+
+.research_items:hover {
+  width: 100%;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary-variant);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.research_container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
